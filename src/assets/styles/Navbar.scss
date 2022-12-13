@@ -1,20 +1,39 @@
 .navbar {
+  margin: 10px 0px 0px 20px;
   width: 100%;
-  height: 200px;
+  height: 50px;
+  display: block;
   .navbar-left {
     float: left;
-    width: 70%;
+    width: 65%;
     ul,
     h3 {
       float: left;
+      margin-block-start: auto;
     }
     li {
       list-style-type: none;
+    }
+    .menu {
+      float: left;
     }
   }
 
   .navbar-right {
     float: left;
-    width: 30%;
+    width: 25%;
+
+    .btn-refresh {
+      float: right;
+    }
+
+    .avatar {
+      width: 25px;
+      border-radius: 20px;
+      img {
+        width: 25px;
+        height: 25px;
+      }
+    }
   }
 }
